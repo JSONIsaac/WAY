@@ -27,3 +27,72 @@ Para ejecutar del **front** es con el comando `npm run dev` y para el **serve** 
 # Insertar datos 
 Insertar datos clientes, productos y de ultimo ya se puede ingresar las ventas
 
+
+#EndPoints
+`http://localhost:3000/cliente`
+`http://localhost:3000/producto`
+`http://localhost:3000/venta`
+
+##Metodo Get para cliente
+`http://localhost:3000/cliente`
+##Metodo Post para cliente
+``http://localhost:3000/cliente``
+estructura de JSON para realizar en el metoo POST
+`{
+    "nombres": "Campo para insertar",
+    "apellidos": "Campo para insertar",
+    "direccion": "Campo para insertar",
+    "telefono": "Campo para insertar",
+    "email": "Campo para insertar"
+}`
+##Metodo Patch para cliente
+`http://localhost:3000/cliente/**ClienteId**`
+`{
+    "nombres": "Nuevo campo actualizar",
+    "apellidos": "Nuevo campo actualizar",
+    "direccion": "Nuevo campo actualizar",
+    "telefono": "Nuevo campo actualizar",
+    "email": "Nuevo campo actualizar"
+}`
+
+##Metodo Get para produto
+`http://localhost:3000/producto`
+##Metodo Post para producto
+`http://localhost:3000/producto`
+`
+{
+    "nombre": "Estufa samsumg 2000",
+    "descripcion": "Estufa ",
+    "precio": "1000.00",
+    "stock": 25
+}
+`
+##Metodo Patch para producto
+`http://localhost:3000/producto/productoId`
+
+`
+{
+    "nombre": "actualizar",actualizar
+    "descripcion": "actualizar",
+    "precio": "actualizar",
+    "stock": valorNumerico
+}`
+
+##Metodo Get para venta
+`http://localhost:3000/venta`
+
+##Metodo Post para venta
+estructura de JSON para realizar en el metoo POST
+`http://localhost:3000/venta`
+
+`{
+    "clienteId": 1,
+    "productos": [
+        {
+            "productoId":1,
+            "cantidad": 2
+        }
+    ]
+    
+}
+`
