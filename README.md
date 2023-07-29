@@ -7,10 +7,17 @@ Como primero debemos instalar dependencias del frontend y del backend para ello 
 
 antes de ejecutar el serve por favor cree una base de datos llamada **storepoint** posterior a esto al ejecutar el serve se crearan automáticamente las tablas.
 
+
+
 > En el archivo raiz de serve crear un archivo **.env** con estos datos: 
 > dbName=*storepoint*
 > dbUser=*nombreDeUsuario*
 > dbPassword=*password*
+
+<image
+  src="./capts/Captura1.PNG"
+  alt="Archivo"
+  caption=".env">
 
  
 # Ejecutar aplicación
