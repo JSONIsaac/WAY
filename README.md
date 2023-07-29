@@ -32,7 +32,9 @@ Insertar datos clientes, productos y de ultimo ya se puede ingresar las ventas
 #EndPoints
 
 `http://localhost:3000/cliente`
+
 `http://localhost:3000/producto`
+
 `http://localhost:3000/venta`
 
 ##Metodo Get para cliente
@@ -72,6 +74,20 @@ estructura de JSON para realizar en el metoo POST
 ##Metodo Post para producto
 
 `http://localhost:3000/producto`
+
+`
+{
+    "nombre": "Campo para insertar",
+    "descripcion": "Campo para insertar",
+    "precio": "Campo para insertar",
+    "stock": ValorNumerico
+}
+`
+
+##Metodo Patch para producto
+
+`http://localhost:3000/producto/productoId`
+
 `
 {
     "nombre": "Estufa samsumg 2000",
@@ -80,15 +96,6 @@ estructura de JSON para realizar en el metoo POST
     "stock": 25
 }
 `
-##Metodo Patch para producto
-
-`http://localhost:3000/producto/productoId`
-
-`
-| | | | |
-|-|-|-|-|
-|nombre|descripcion|precio|stock|
-|Estufa samsumg 3000|Refri |11000.00|25|
 
 
 ##Metodo Get para venta
