@@ -25,19 +25,26 @@ antes de ejecutar el serve por favor cree una base de datos llamada **storepoint
 Para ejecutar del **front** es con el comando `npm run dev` y para el **serve** `npm start` esto nos habilita un servidor local en el puerto 3000 en especifico 
 
 # Insertar datos 
+
 Insertar datos clientes, productos y de ultimo ya se puede ingresar las ventas
 
 
 #EndPoints
+
 `http://localhost:3000/cliente`
 `http://localhost:3000/producto`
 `http://localhost:3000/venta`
 
 ##Metodo Get para cliente
+
 `http://localhost:3000/cliente`
+
 ##Metodo Post para cliente
-``http://localhost:3000/cliente``
+
+`http://localhost:3000/cliente`
+
 estructura de JSON para realizar en el metoo POST
+
 `{
     "nombres": "Campo para insertar",
     "apellidos": "Campo para insertar",
@@ -45,8 +52,11 @@ estructura de JSON para realizar en el metoo POST
     "telefono": "Campo para insertar",
     "email": "Campo para insertar"
 }`
+
 ##Metodo Patch para cliente
+
 `http://localhost:3000/cliente/**ClienteId**`
+
 `{
     "nombres": "Nuevo campo actualizar",
     "apellidos": "Nuevo campo actualizar",
@@ -56,8 +66,11 @@ estructura de JSON para realizar en el metoo POST
 }`
 
 ##Metodo Get para produto
+
 `http://localhost:3000/producto`
+
 ##Metodo Post para producto
+
 `http://localhost:3000/producto`
 `
 {
@@ -68,6 +81,7 @@ estructura de JSON para realizar en el metoo POST
 }
 `
 ##Metodo Patch para producto
+
 `http://localhost:3000/producto/productoId`
 
 `
@@ -79,10 +93,13 @@ estructura de JSON para realizar en el metoo POST
 }`
 
 ##Metodo Get para venta
+
 `http://localhost:3000/venta`
 
 ##Metodo Post para venta
+
 estructura de JSON para realizar en el metoo POST
+
 `http://localhost:3000/venta`
 
 `{
