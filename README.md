@@ -85,12 +85,11 @@ estructura de JSON para realizar en el metoo POST
 `http://localhost:3000/producto/productoId`
 
 `
-{
-    "nombre": "actualizar",actualizar
-    "descripcion": "actualizar",
-    "precio": "actualizar",
-    "stock": valorNumerico
-}`
+| | | | |
+|-|-|-|-|
+|nombre|descripcion|precio|stock|
+|Estufa samsumg 3000|Refri |11000.00|25|
+
 
 ##Metodo Get para venta
 
