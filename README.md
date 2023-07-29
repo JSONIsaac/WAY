@@ -25,5 +25,5 @@ antes de ejecutar el serve por favor cree una base de datos llamada **storepoint
 Para ejecutar del **front** es con el comando `npm run dev` y para el **serve** `npm start` esto nos habilita un servidor local en el puerto 3000 en especifico 
 
 # Insertar datos 
-Insertar datos clientes, productos y de ultimo vetas
+Insertar datos clientes, productos y de ultimo ya se puede ingresar las ventas
 
